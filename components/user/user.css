@@ -1,0 +1,27 @@
+.user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #4a4a4a;
+  cursor: pointer;
+  user-select: none;
+
+  &.selected {
+    color: #9b9b9b;
+
+    & .avatar {
+      filter: grayscale(100%);
+    }
+  }
+}
+
+.avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.info {
+  font-weight: 600;
+  margin-left: 10px;
+}
