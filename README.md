@@ -7,3 +7,7 @@
 ## Review ES2015
 
 [https://repl.it/@HoangDuc/ES2015-Review](https://repl.it/@HoangDuc/ES2015-Review)
+
+## Redux Overview
+
+[https://repl.it/@HoangDuc/Redux-Hand-ons](https://repl.it/@HoangDuc/Redux-Hand-ons)
