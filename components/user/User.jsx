@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import styles from './user.css';
+import styles from './user.scss';
 
 class User extends Component {
   static propTypes = {

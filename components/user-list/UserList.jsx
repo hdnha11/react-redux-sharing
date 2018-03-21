@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import * as usersActionCreators from '../../actions/users';
 import User from '../user';
-import styles from './user-list.css';
+import styles from './user-list.scss';
 
 class UserList extends Component {
   static propTypes = {

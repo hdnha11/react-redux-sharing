@@ -1,6 +1,9 @@
 {
   parser: "babel-eslint",
   extends: "airbnb",
+  env: {
+    "browser": true
+  },
   rules: {
     "import/no-unresolved": "off",
     "import/no-extraneous-dependencies": "off",

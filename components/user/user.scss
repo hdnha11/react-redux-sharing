@@ -9,7 +9,7 @@
   &.selected {
     color: #9b9b9b;
 
-    & .avatar {
+    .avatar {
       filter: grayscale(100%);
     }
   }
