@@ -1,4 +1,4 @@
-import { combineReducers } from 'redux';
+import { combineReducers } from '../simple-redux';
 import * as types from '../actions/types';
 
 const all = (state = [], action) => {
