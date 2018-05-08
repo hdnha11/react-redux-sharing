@@ -45,7 +45,7 @@ class UserList extends Component {
         ))}
         {!isFetching &&
           currentPage < totalPages && (
-            <a className={styles.loadMore} href onClick={this.loadMore}>
+            <a className={styles.loadMore} href="#see-more" onClick={this.loadMore}>
               Load more...
             </a>
           )}
