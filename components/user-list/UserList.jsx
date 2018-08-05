@@ -27,7 +27,9 @@ class UserList extends Component {
     fetchUsers();
   }
 
-  loadMore = () => {
+  loadMore = event => {
+    event.preventDefault();
+
     const { currentPage, fetchUsers } = this.props;
 
     fetchUsers({ page: currentPage + 1 });
